@@ -1,4 +1,5 @@
-package com.example.cargame;
+package com.example.cargame
 
-public class GameTask {
+interface GameTask {
+    fun closeGame(mScore: Int)
 }
